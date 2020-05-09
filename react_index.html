@@ -31,5 +31,12 @@
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
     <!-- Load our React component code -->
     <script src="like_button.js"></script>
+
+    <!-- if we don't have a minification step then to minify the script 
+    	1. install node.js
+    	2. run npm init -y (in project folder)
+    	3. run npm install terser
+    	4. npx terser -c -m -o like_button.min.js -- like_button.js
+     -->
 </body>
 </html>

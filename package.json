@@ -1,0 +1,23 @@
+{
+  "name": "React_to_a_Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "like_button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prachisawarkar/React_notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prachisawarkar/React_notes/issues"
+  },
+  "homepage": "https://github.com/prachisawarkar/React_notes#readme",
+  "dependencies": {
+    "terser": "^4.6.13"
+  }
+}
