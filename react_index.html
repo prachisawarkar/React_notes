@@ -10,12 +10,25 @@
 	<h2>Add React to a Website</h2>
 	<p>React is loaded as a script tag</p>
 	<!-- we will put our React Component inside this div -->
-	<div id = 'like_button_container'></div>
+	<p> 
+		This is the first comment.
+		<div class = 'like_button_container' data-commentid = '1'></div>
+	</p>
+
+	<p> 
+		This is the second comment.
+		<div class = 'like_button_container' data-commentid = '2'></div>
+	</p>
+
+	<p> 
+		This is the third comment.
+		<div class = 'like_button_container' data-commentid = '3'></div>
+	</p>
 
 	<!-- when deploying, replace 'development.js' with 'production.min.js' -->
 	<!-- first two scripts will load React -->
-	<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
     <!-- Load our React component code -->
     <script src="like_button.js"></script>
 </body>
